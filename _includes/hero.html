@@ -8,7 +8,7 @@
       <span>{{ profile.location }}</span><span>{{ profile.experience }}</span>
       {% for item in profile.highlights %}<span>{{ item }}</span>{% endfor %}
     </div>
-    <div class="actions"><a class="button primary" href="#projects">查看代表项目</a><a class="button" href="mailto:{{ profile.email }}">邮件联系</a></div>
+    <div class="actions"><a class="button primary" href="#projects">查看代表项目</a><a class="button" href="{{ profile.github }}" target="_blank" rel="noopener noreferrer">查看个人项目</a><a class="button" href="mailto:{{ profile.email }}">邮件联系</a></div>
   </div>
   {% if profile.avatar and profile.avatar != "" %}<img class="avatar" src="{{ profile.avatar | relative_url }}" alt="{{ profile.name }}">{% endif %}
 </header>
