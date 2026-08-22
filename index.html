@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% include hero.html %}
+<main>
+  {% assign sections = site.sections | sort: "order" %}
+  {% for section in sections %}
+    {% unless section.kind == "profile" %}
+    <section class="section{% if section.alt %} alt{% endif %}" id="{{ section.slug }}">
+      {% if section.eyebrow %}<p class="eyebrow">{{ section.eyebrow }}</p>{% endif %}
+      <h2>{{ section.title }}</h2>
+      {% if section.kind == "projects" %}{% include projects.html %}{% else %}<div class="markdown-body">{{ section.content }}</div>{% endif %}
+    </section>
+    {% endunless %}
+  {% endfor %}
+</main>
+{% include contact.html %}

@@ -1,0 +1,1 @@
+{% assign profile = site.sections | where: "kind", "profile" | first %}<footer class="contact" id="contact"><p class="eyebrow">CONTACT</p><h2>保持联系</h2><p>如果你希望交流 AI、云计算或解决方案架构，欢迎通过邮件联系。</p><a class="button primary" href="mailto:{{ profile.email }}">{{ profile.email }}</a>{% if profile.github %}<a class="button" href="{{ profile.github }}">GitHub</a>{% endif %}</footer>
