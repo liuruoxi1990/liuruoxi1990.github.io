@@ -8,9 +8,8 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  {% assign nav_profile = site.sections | where: "kind", "profile" | first %}
   <nav class="nav" aria-label="主导航">
-    <a class="brand" href="#top">{{ nav_profile.name }}</a>
+    <a class="brand" href="#top">个人主页</a>
     <div class="nav-links">
       <a href="#about">关于我</a><a href="#skills">专业能力</a><a href="#experience">工作经历</a><a href="#projects">代表项目</a><a href="#contact">联系我</a>
     </div>
