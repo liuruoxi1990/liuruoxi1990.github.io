@@ -7,9 +7,8 @@ location: "深圳"
 experience: "12年工作经验"
 email: "liuruoxi818@gmail.com"
 github: "https://github.com/liuruoxi1990"
-avatar: ""
+avatar: "/assets/images/avatar.jpg"
 highlights:
   - "亚太市场经验"
 ---
 12年研发与云业务经验，国内&亚太地区 AI Infra、上云迁移与复杂项目的端到端落地。
-
