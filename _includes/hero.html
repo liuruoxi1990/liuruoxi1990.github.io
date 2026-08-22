@@ -10,5 +10,5 @@
     </div>
     <div class="actions"><a class="button primary" href="#projects">查看代表项目</a><a class="button" href="mailto:{{ profile.email }}">邮件联系</a></div>
   </div>
-  {% if profile.avatar %}<img class="avatar" src="{{ profile.avatar | relative_url }}" alt="{{ profile.name }}">{% endif %}
+  {% if profile.avatar and profile.avatar != "" %}<img class="avatar" src="{{ profile.avatar | relative_url }}" alt="{{ profile.name }}">{% endif %}
 </header>
