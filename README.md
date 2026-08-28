@@ -1,4 +1,4 @@
-# liuruoxi1990.github.io
+# whoisLeo0818.github.io
 
 职业展示型 GitHub Pages。页面模板与文字内容已经分离，日常更新只需编辑 Markdown。
 
@@ -21,8 +21,8 @@ Markdown 文件开头的 `---` 区域用于标题、顺序和时间等配置，�
 
 ## 头像
 
-将头像保存为 `assets/images/avatar.webp`，然后在 `_sections/00-profile.md` 中设置：
+将头像保存为 `assets/images/avatar.jpg`，然后在 `_sections/00-profile.md` 中设置：
 
 ```yaml
-avatar: "/assets/images/avatar.webp"
+avatar: "/assets/images/avatar.jpg"
 ```

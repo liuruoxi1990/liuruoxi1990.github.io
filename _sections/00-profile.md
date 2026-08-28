@@ -6,7 +6,7 @@ role: "云解决方案架构师（AI & Cloud）"
 location: "深圳"
 experience: "12年工作经验"
 email: "liuruoxi818@gmail.com"
-github: "https://github.com/liuruoxi1990"
+github: "https://github.com/whoisLeo0818"
 avatar: "/assets/images/avatar.jpg"
 highlights:
   - "亚太市场经验"
